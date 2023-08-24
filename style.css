@@ -1,0 +1,55 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+body{
+    background-color: darkslategray;
+}
+
+h5{
+    text-align: center;
+    color: #e8e4e9;
+}
+.cal-wrapper{
+    width: 23%;
+    margin: 10% auto;
+    background-color: brown;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+}
+
+input.display{
+    width: -webkit-fill-available;
+    background: #e8e4e9;
+    margin: 0 auto;
+    text-align: right;
+    padding: 15px;
+    font-size: 1.5rem;
+}
+
+.keyboard{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin: 20px 0;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.keyboard button{
+    width: 50px;
+    border-radius: 50%;
+    height: 50px;
+    font-size: 1.2rem;
+    background-color: #fffffe;
+    font-weight: 600;
+}
+
+.keyboard button:hover{
+    background-color: yellow;
+    border-style: ridge;
+}
